@@ -4,29 +4,44 @@
 #F5F5F5 - açık gri
 #FFF200 = sari
 */
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
     background-color: #F5F5F5;
+    padding-top: 65px;
 }
 
 #baslik {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
     height: 75px;
     color: #F5F5F5;
     background-color: #303481;
     border-color: #D6E6F2;
     border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    padding: 0px 25px 15px 25px;
+    border-width: 0 0 2px 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+
+div nav {
+    display: flex;
+    gap: 20px;
 }
 
 div nav a:link,
 div nav a:visited {
-    position: relative;
-    top: -15px;
     color: #D6E6F2;
     text-decoration: none;
 }
@@ -55,10 +70,10 @@ table caption {
     border-radius: 10px;
     background-color: #D6E6F2;
     padding: 10px;
-    
+
 }
 
-#proje-info{
+#proje-info {
     width: auto;
     height: auto;
     text-align: center;
@@ -92,7 +107,7 @@ table caption {
     border-color: #303481;
 }
 
-#profile{
+#profile {
     width: 600px;
     height: auto;
     margin: auto;
