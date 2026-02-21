@@ -1,0 +1,147 @@
+/* 
+#303481 - koyu mavi
+#D6E6F2 - acik mavi
+#F5F5F5 - açık gri
+#FFF200 = sari
+*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+#baslik {
+    height: 75px;
+    color: #F5F5F5;
+    background-color: #303481;
+    border-color: #D6E6F2;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 0px 25px 15px 25px;
+}
+
+div nav a:link,
+div nav a:visited {
+    position: relative;
+    top: -15px;
+    color: #D6E6F2;
+    text-decoration: none;
+}
+
+div nav a:hover {
+    color: #FFF200;
+}
+
+table {
+    margin: 40px auto;
+}
+
+table caption {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #303481;
+}
+
+#proje-card {
+    width: 350px;
+    height: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #303481;
+    border-radius: 10px;
+    background-color: #D6E6F2;
+    padding: 10px;
+    
+}
+
+#proje-info{
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #303481;
+}
+
+#proje1-btn,
+#proje2-btn,
+#proje3-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #303481;
+    color: #F5F5F5;
+    border-style: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#proje1-btn:hover,
+#proje2-btn:hover,
+#proje3-btn:hover {
+    background-color: #D6E6F2;
+    color: #303481;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #303481;
+}
+
+#profile{
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+#profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #303481;
+    background-image: url(https://media.licdn.com/dms/image/v2/D4D03AQGfhlA9sOjn6w/profile-displayphoto-shrink_400_400/B4DZUF8AkJHYAg-/0/1739561372792?e=1773273600&v=beta&t=OVROs3tDd6EgxWWnJXbe0j78dwzbCjcKsHL7nf4GNMA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#profile-info {
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #303481;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #303481;
+    color: #F5F5F5;
+    margin-top: 20px;
+    border-color: #D6E6F2;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+footer a:link,
+footer a:visited {
+    color: #D6E6F2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFF200;
+}
